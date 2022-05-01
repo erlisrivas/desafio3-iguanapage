@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+}
+
+/*ENCABEZADO*/
+header {
+    background-color: black;
+    width: 1280px;
+    height: 73px;
+}
+
+header h1{
+  font: normal normal medium 50px/59px Raleway;
+  font-weight: 400px;
+  font-size: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 7px;
+  color:white;
+  margin: 0 0;
+}
+
+/*SECCIÓN IMAGEN IGUANA*/
+#section-imagen-1{
+    top: 73px;
+    width: 1280px;
+    height: 727px;
+}
+
+/*SECCIÓN DEFINICIÓN*/
+#section-definicion{
+    /* Layout Properties */
+    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#section-definicion p{
+    /* Layout Properties */
+    padding-top: 76px;
+    padding-left: 150px;
+    padding-right: 106px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    /* UI Properties */
+    text-align:left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: inline-block;
+}
+#section-definicion img{
+    /* Layout Properties */
+    padding-top: 45px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+
+    /* UI Properties */
+    opacity: 1;
+    display: inline-block;
+}
+
+/*SECCIÓN CARACTERÍSTICAS*/
+#caracteristicas{
+    /* Layout Properties */
+    top: 1141px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    text-align: center;
+    color: #FFFFFF;
+
+    /* UI Properties */
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+#caracteristicas > h2{
+    /* Layout Properties */
+    font-weight: 356px;
+    padding-left: 464px;
+    margin: 0;  
+
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 40px/47px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.titulo{ 
+    text-align: center;
+    display: inherit;
+    padding-bottom: 50px;
+    padding-top: 75px;
+    font-size: 20px;
+}
+.caracteristicas-icon{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+
+.iconos{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+/*SECCIÓN 3 IMÁGENES*/
+#section-img{
+    /* Layout Properties */
+    top: 1488px;
+    left: 0px;
+    width: 1130px;
+    height: 275px;
+
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+
+    /* Personal css */
+    padding-top: 73px;
+    padding-left: 150px;
+}
+#section-img #div-img-iguana-1{
+    /* Layout Properties */
+    top: 1561px;
+    left: 150px;
+    width: 316px;
+    height: 202px;
+
+    /* UI Properties */
+    opacity: 1;
+}
+#section-img #div-img-iguana-2{
+    /* Layout Properties */
+    top: 1561px;
+    left: 482px;
+    width: 316px;
+    height: 202px;
+
+    /* UI Properties */
+    opacity: 1;
+
+    /* Personal css */
+    margin-left: 16px;
+}
+#section-img #div-img-iguana-3{
+    /* Layout Properties */
+    top: 1561px;
+    left: 814px;
+    width: 316px;
+    height: 202px;
+
+    /* UI Properties */
+    opacity: 1;
+
+    /* Personal css */
+    margin-left: 16px;
+}
+
+/*FOOTER*/
+footer{
+    /* Layout Properties */
+    top: 1835px;
+    left: 0px;
+    width: 981px;
+    height: 63px;
+
+    /* UI Properties */
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+
+    /* Personal css */
+    padding-top: 39px;
+    padding-left: 299px;
+}
+footer a{
+    /* Layout Properties */
+    top: 1874px;
+    left: 299px;
+    width: 682px;
+    height: 24px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    
+}
